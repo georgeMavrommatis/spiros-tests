@@ -15,6 +15,23 @@ package udemy.pojo;
 * @author Your Name
 */
 public class GradeBook {
+    
+    /**
+    *a private field
+    */
+    private String privateStringField;
+    
+    /**
+    *a private final field can only be initialized once
+    */
+    private final String privateFinalStringField;
+    
+    public GradeBook(){
+        super();//not necessary, calls parent class constuctor
+        this.privateFinalStringField = "Some dummy final value";
+    }
+    
+    
     public void displayMessage(String courseName){
         /*Η μέθοδος displayMessage εμπεριέχει τον
         access modifier, τον type of redundant return
@@ -22,5 +39,13 @@ public class GradeBook {
 
         System.out.println("Welcome to the grade book for " + courseName);
         /*Η παράμετρος αυτή θα πάρει τιμή-όρισμα από την κλάση ελέγχου*/
+    }
+    
+    public String getprivateStringField(){
+        return this.privateStringField;
+    }
+    
+    public void setprivateStringField(String myString){
+        this.privateStringField = myString;
     }
 }
