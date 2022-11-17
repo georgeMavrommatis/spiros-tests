@@ -25,7 +25,7 @@ public class IntegerComparison {
             System.out.println(" != " + number1 + number2);
         if (number1 < number2)
             System.out.println(" < " + number1 + number2);
-        /*α)Στην δεύτερη και τρίτη πρόταση εξόδου έχουμε τη μέθοδο println
+        /*Στην δεύτερη και τρίτη πρόταση εξόδου έχουμε τη μέθοδο println
         και ακολούθως τα ορίσματά μας*/
 
         if (number1 > number2)
@@ -34,7 +34,7 @@ public class IntegerComparison {
             System.out.printf("%d <= %d\n", number1 , number2);
         if (number1 >= number2)
             System.out.printf("%d >= %d\n", number1 , number2);
-        /*β)Στις τρεις τελευταίες προτάσεις εξόδου έχουμε τη μέθοδο printf
+        /*Στις τρεις τελευταίες προτάσεις εξόδου έχουμε τη μέθοδο printf
         και ακολούθως τα ορίσματά μας*/
     }
     //Τέλος μεθόδου
