@@ -41,11 +41,24 @@ public class GradeBook {
         /*Η παράμετρος αυτή θα πάρει τιμή-όρισμα από την κλάση ελέγχου*/
     }
     
+    /**
+    *Getter for privateStringField
+    */
     public String getprivateStringField(){
         return this.privateStringField;
     }
     
+    /**
+    *Setter for privateStringField
+    */
     public void setprivateStringField(String myString){
         this.privateStringField = myString;
+    }
+    
+    /**
+    *Getter for privateFinalStringField
+    */
+     public String getprivateFinalStringField(){
+        return this.privateFinalStringField;
     }
 }
